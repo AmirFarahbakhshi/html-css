@@ -1,0 +1,29 @@
+div {
+  width: 200px;
+  height: 200px;
+  border: 1px solid red;
+}
+
+.style_1 {
+  width: 200px;
+  height: 200px;
+  border: 1px solid red;
+  background-image: url("../01-Exercise-1/puppy.jpg");
+}
+
+img {
+  width: 200px;
+  box-sizing: border-box;
+  border: 20px dashed red;
+  padding: 20px;
+}
+
+.dogone {
+  border: 5px dotted red;
+  padding: 30px;
+}
+
+.dogtwo {
+  border: 5px groove green;
+  padding: 50px;
+}
