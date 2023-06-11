@@ -1,0 +1,13 @@
+p {
+  border: 5px solid green;
+  line-height: 2;
+
+  width: 600px;
+  margin: 0 auto;
+  padding: 1rem;
+  text-align: justify;
+}
+
+span {
+  border: 1px dashed black;
+}

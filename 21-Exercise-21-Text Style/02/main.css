@@ -1,0 +1,9 @@
+h1 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30rem;
+  text-shadow: 5px 5px 20px red;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0;
+  border: solid 1px black;
+}
