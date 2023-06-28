@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+body {
+  margin-top: 40px;
+  margin-left: 10px;
+}
+
+div {
+  border: 20px solid black;
+  background-color: blue;
+  background-image: url(../05/01.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 400px;
+  height: auto;
+}
+
+p {
+  color: white;
+  text-align: justify;
+  margin: 10px;
+}

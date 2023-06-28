@@ -1,0 +1,30 @@
+body {
+  border: 2px solid red;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  height: 700px;
+}
+
+div {
+  background-color: blue;
+  border: 1px solid black;
+  width: 100px;
+  margin: 1rem;
+  text-align: center;
+}
+
+#one {
+  height: 100px;
+  order: 3;
+}
+
+#two {
+  height: 150px;
+  order: 2;
+}
+
+#three {
+  height: 200px;
+  order: 1;
+}

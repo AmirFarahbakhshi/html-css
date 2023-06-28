@@ -1,0 +1,23 @@
+body,
+html {
+  border: 2px solid red;
+}
+
+body {
+  height: 200px;
+}
+
+div {
+  display: block;
+  border: 2px solid red;
+  width: 100px;
+  height: 50px;
+  background-color: blue;
+}
+
+#one {
+  background-color: green;
+  position: relative;
+  left: 30px;
+  top: 40px;
+}

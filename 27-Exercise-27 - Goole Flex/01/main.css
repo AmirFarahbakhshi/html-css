@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  border: 2px solid red;
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.C1,
+.C2,
+.C3,
+.C4,
+.C5 {
+  width: 100%;
+  min-height: 150px;
+}
+
+.C1 {
+  background-color: blue;
+}
+.C2 {
+  background-color: rgb(237, 23, 12);
+}
+.C3 {
+  background-color: rgb(226, 15, 194);
+}
+.C4 {
+  background-color: rgb(20, 239, 97);
+}
+.C5 {
+  background-color: rgb(174, 215, 223);
+}

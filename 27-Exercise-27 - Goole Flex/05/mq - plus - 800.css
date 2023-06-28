@@ -1,0 +1,33 @@
+body {
+  padding: 0 4rem;
+}
+
+.C1,
+.C2 {
+  width: 25%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+article {
+  width: 50%;
+  order: 3;
+}
+
+.C1 {
+  order: 2;
+}
+
+.C2 {
+  order: 4;
+}
+
+header {
+  order: 1;
+}
+
+footer {
+  order: 5;
+}

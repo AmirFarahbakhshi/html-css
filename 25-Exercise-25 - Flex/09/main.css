@@ -1,0 +1,23 @@
+body {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+div {
+  border: 2px solid black;
+  height: 100;
+  width: 400px;
+  text-align: center;
+}
+
+#one {
+  flex-shrink: 1;
+}
+
+#two {
+  flex-shrink: 2;
+}
+
+#three {
+  flex-shrink: 1;
+}

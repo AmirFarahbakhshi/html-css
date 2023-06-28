@@ -1,0 +1,16 @@
+body {
+  border: 2px solid red;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  height: 700px;
+}
+
+div {
+  background-color: blue;
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+}

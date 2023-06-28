@@ -1,0 +1,19 @@
+ul {
+  display: flex;
+  flex-flow: row nowrap;
+  list-style: none;
+  justify-content: flex-end;
+}
+
+li {
+  border: none;
+}
+
+li {
+  width: 10%;
+}
+
+ul {
+  width: 100%;
+  background-color: rgb(88, 184, 252);
+}
