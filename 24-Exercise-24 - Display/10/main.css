@@ -1,0 +1,23 @@
+body {
+  width: 604px;
+  margin: 100px auto;
+  border: 5px solid green;
+}
+
+nav,
+main {
+  border: 2px solid red;
+  box-sizing: border-box;
+}
+
+nav {
+  vertical-align: top;
+  display: inline-block;
+  width: 200px;
+}
+
+main {
+  display: inline-block;
+  width: 400px;
+  text-align: justify;
+}

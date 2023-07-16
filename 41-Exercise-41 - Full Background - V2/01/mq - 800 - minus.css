@@ -1,0 +1,21 @@
+.C1 {
+  justify-content: space-between;
+  height: 60vh;
+}
+
+section {
+  background-image: url(background-photo-mobile-devices.jpg);
+}
+
+header nav {
+  display: none;
+}
+
+footer {
+  display: flex;
+}
+
+header div {
+  width: 100%;
+  justify-content: center;
+}

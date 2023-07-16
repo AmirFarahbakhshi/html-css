@@ -1,0 +1,14 @@
+body {
+  padding: 0 2rem;
+}
+
+header,
+article,
+footer {
+  width: 100%;
+}
+
+.C1,
+.C2 {
+  width: 50%;
+}

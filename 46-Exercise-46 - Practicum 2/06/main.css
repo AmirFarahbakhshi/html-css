@@ -1,0 +1,49 @@
+* {
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 0;
+  font-size: 1vw;
+  color: #57727c;
+  margin: 0;
+  font-family: Raleway, Helvetica, sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.atf {
+  width: 27%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgb(202, 208, 210);
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 400;
+}
+
+svg {
+  font-size: 20rem;
+  width: 1em;
+  height: 1em;
+  fill: rgb(188, 210, 218);
+  /* border: 2px solid red; */
+}
+
+button {
+  background-color: #eef3f5;
+  border-top: 1px solid #d7dbdd;
+  width: 100%;
+  padding: 1.7rem;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-top: 1.6rem;
+}

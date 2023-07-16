@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  color: black;
+}
+
+body {
+  display: flex;
+  width: 40%;
+  height: auto;
+  margin: 0 auto;
+  flex-flow: column wrap;
+  border: 10px groove blue;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 2rem;
+  font-family: "Times New Roman", Times, serif;
+  margin: 10px;
+}
+
+a {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  text-decoration: none;
+  align-items: center;
+  text-align: center;
+}

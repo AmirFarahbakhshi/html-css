@@ -1,0 +1,29 @@
+body {
+  border: 2px solid red;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 400px;
+}
+
+div {
+  background-color: blue;
+  border: 1px solid black;
+  width: 100px;
+  margin: 1rem;
+  text-align: center;
+}
+
+#one {
+  height: 300px;
+  align-self: flex-end;
+}
+
+#two {
+  height: 150px;
+}
+
+#three {
+  height: 200px;
+}

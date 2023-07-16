@@ -1,0 +1,16 @@
+body {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+div {
+  /* flex-grow: 1; */
+  border: 2px solid black;
+  width: 200px;
+  height: 100;
+  border: 2px solid red;
+  background-color: blue;
+  margin: 1rem;
+  text-align: center;
+  flex-grow: 1;
+}

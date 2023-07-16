@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 5px;
+}
+
+div {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+header,
+footer,
+nav,
+aside,
+article {
+  border: 1px solid black;
+  width: 100%;
+  height: 50px;
+  background-color: beige;
+}

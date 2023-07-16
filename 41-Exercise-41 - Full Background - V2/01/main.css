@@ -1,0 +1,177 @@
+html {
+  font-family: "Cantarell", sans-serif;
+  color: whitesmoke;
+  fill: white;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.527);
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-between;
+  /* border: 2px solid red; */
+}
+
+header div,
+header nav {
+  /* width: 200px; */
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+  margin: 0 5px;
+  /* border: 2px solid blue; */
+}
+
+header div {
+  justify-content: flex-start;
+}
+
+header div a {
+  display: flex;
+  align-items: center;
+}
+
+header div a:hover {
+  color: #9dbb88;
+}
+
+header div a h1 {
+  font-size: 12px;
+  margin-left: 0.5rem;
+}
+
+.idx-hdr-svg {
+  width: 30px;
+  /* fill: currentColor; */
+}
+
+header nav a {
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3px;
+}
+
+header nav a:hover {
+  color: #9dbb88;
+  background-color: dimgray;
+}
+
+section {
+  /* border: 2px solid red; */
+  color: white;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #5b5b5b;
+  background-image: url(background-photo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-origin: border-box;
+  background-position: center;
+}
+
+.C1 {
+  /* border: 2px solid blue; */
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
+
+.C2 {
+  /* border: 2px soild red; */
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  /* border: 2px solid yellow; */
+  font-size: 2.5rem;
+  text-align: center;
+  padding: 0 10px;
+}
+
+h2 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.5;
+  text-align: center;
+}
+
+h3 {
+  font-size: 1.4rem;
+  line-height: 1.5;
+  text-align: center;
+}
+
+button {
+  font-size: 1.4rem;
+  font-weight: 700;
+  border: 2px solid rgb(202, 250, 234);
+  background-color: transparent;
+  padding: 5px 10px;
+  color: rgb(202, 250, 234);
+  border-radius: 3%;
+  text-align: center;
+}
+
+footer {
+  width: 100%;
+  display: flex;
+  flex-flow: column wrap;
+}
+
+footer nav {
+  display: flex;
+  flex-flow: column wrap;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+footer nav a {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding-left: 3%;
+  width: 100%;
+  background-color: deepskyblue;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+footer nav a:hover {
+  background-color: royalblue;
+}
+
+.idx-ft-svg {
+  width: 40px;
+  height: 40px;
+}
+
+footer nav a h4 {
+  font-size: 1.5rem;
+  color: white;
+  margin-left: 20px;
+}
+
+footer {
+  display: none;
+}
+
+.trans {
+  transition: all;
+  transition-duration: 800ms;
+  transition-timing-function: ease;
+}

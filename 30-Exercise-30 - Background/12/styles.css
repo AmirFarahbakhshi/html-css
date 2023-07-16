@@ -1,0 +1,9 @@
+div {
+  height: 230px;
+  width: 200px;
+  border: 20px groove orange;
+  background-image: url("01.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}

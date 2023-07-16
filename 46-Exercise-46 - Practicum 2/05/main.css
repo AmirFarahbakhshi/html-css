@@ -1,0 +1,57 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  border: 0;
+  font-size: 1vw;
+  font-family: Raleway, Helvetica, sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.class-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 70%;
+  border: 1px solid lightgray;
+  border-radius: 1.5rem;
+}
+
+.class-sub {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  border-bottom: 1px solid lightgray;
+  padding: 3rem 2rem;
+}
+
+.third-sub {
+  border: none;
+  justify-content: center;
+}
+
+.first-sub,
+.third-sub {
+  justify-content: flex-start;
+}
+
+svg {
+  font-size: 10rem;
+  width: 1em;
+  height: 1em;
+  fill: rgb(134, 150, 156);
+}
+
+p {
+  font-size: 3rem;
+  font-weight: 300;
+  padding: 0 2rem;
+  color: rgb(134, 150, 156);
+}

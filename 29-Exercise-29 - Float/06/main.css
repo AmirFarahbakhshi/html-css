@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header,
+nav,
+section,
+footer {
+  border-radius: 5px;
+}
+
+header {
+  height: 20px;
+  /* width: 100%; */
+  margin: 10px;
+  clear: both;
+  background-color: beige;
+}
+
+nav {
+  height: 80px;
+  margin-bottom: 10px;
+  float: left;
+  width: 24%;
+  background-color: blue;
+  margin-left: 10px;
+}
+
+section {
+  height: 80px;
+  width: 74%;
+  float: right;
+  margin-bottom: 10px;
+  background-color: bisque;
+  margin-right: 10px;
+}
+
+footer {
+  height: 20px;
+  /* width: 100%; */
+  margin: 10px;
+  clear: both;
+  background-color: brown;
+}

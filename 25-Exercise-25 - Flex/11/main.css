@@ -1,0 +1,18 @@
+body {
+  border: 2px solid black;
+  height: 200px;
+  display: flex;
+}
+
+div {
+  flex: 0 1 auto;
+  width: 200px;
+  height: 100px;
+  border: 2px solid black;
+  text-align: center;
+  margin: 1rem;
+}
+
+.style_1 {
+  flex: 1 2 auto;
+}

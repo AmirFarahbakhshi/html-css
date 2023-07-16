@@ -1,0 +1,16 @@
+body {
+  flex-flow: row nowrap;
+}
+
+ul {
+  justify-content: flex-start;
+}
+
+nav {
+  min-width: 100px;
+}
+
+article {
+  display: flex;
+  align-items: center;
+}
