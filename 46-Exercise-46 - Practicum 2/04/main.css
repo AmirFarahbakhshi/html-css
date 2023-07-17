@@ -14,7 +14,7 @@ body {
 
 button {
   background-color: white;
-  border: 1px solid #d7dbdd;
+  border: 1px solid green;
   width: 20rem;
   height: 20rem;
   border-radius: 100%;
@@ -25,4 +25,8 @@ button {
 
 svg {
   fill: rgb(188, 210, 218);
+  font-size: 14rem;
+  width: 1em;
+  height: 1em;
+  border: 1px solid red;
 }

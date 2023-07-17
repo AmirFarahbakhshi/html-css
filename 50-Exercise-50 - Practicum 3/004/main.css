@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 0;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  background-color: transparent;
+  border-radius: 100%;
+  border: 1px solid #d7dbdd;
+  box-shadow: 1px 1px 2px #d7dbdd;
+  width: 20rem;
+  height: 20rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+svg {
+  fill: #bcd2da;
+  font-size: 14rem;
+  width: 1em;
+  height: 1em;
+  /* border: 1px solid green; */
+}
+
+button:hover {
+  cursor: pointer;
+}
